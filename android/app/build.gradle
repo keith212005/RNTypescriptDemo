@@ -1,5 +1,9 @@
 apply plugin: "com.android.application"
 
+// for react-native-vector-icons to not show x instead of icon
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+
 import com.android.build.OutputFile
 
 /**
